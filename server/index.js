@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.use(cors({
-   origin: ['http://localhost:3000','http://localhost:3001','https://task-tracker-mern07.netlify.app','https://lively-pudding-1079e3.netlify.app/'],
+   origin: ['http://localhost:3000','http://localhost:3001','https://task-tracker-mern07.netlify.app','https://lively-pudding-1079e3.netlify.app'],
    methods: ['GET', 'POST', 'PUT', 'DELETE'],
    credentials: true,
 }));
